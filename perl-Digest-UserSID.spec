@@ -1,12 +1,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Digest
 %define		pnam	UserSID
-Summary:	Digest::UserSID Perl module - managing of session IDs
-Summary(pl):	Modu³ perla Digest::UserSID - zarz±dzanie identyfikatorami sesji
+Summary:	Digest::UserSID - managing of session IDs
+Summary(pl):	Digest::UserSID - zarz±dzanie identyfikatorami sesji
 Name:		perl-Digest-UserSID
 Version:	1.05
 Release:	2
-License:	Artistic or GPL
+# same as perl, but "free" in module header
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1d06119b1e0367823fb197a82b472fd4

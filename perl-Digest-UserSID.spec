@@ -27,7 +27,7 @@ skryptach CGI i konsolowych.
 %setup -q -c
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install

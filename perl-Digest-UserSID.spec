@@ -18,8 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Digest::UserSID - Managing of Session IDs for Users on CGI- and
-console-scripts. 
-	  
+console-scripts.
+
 %description -l pl
 Modu³ UserSID - zarz±dzaj±cy identyfikatorami sesji dla u¿ytkowników w
 skryptach CGI i konsolowych.
@@ -29,7 +29,7 @@ skryptach CGI i konsolowych.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install

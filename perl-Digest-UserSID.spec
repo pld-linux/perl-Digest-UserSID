@@ -2,7 +2,7 @@
 %define		pdir	Digest
 %define		pnam	UserSID
 Summary:	Digest::UserSID - managing of session IDs
-Summary(pl):	Digest::UserSID - zarz±dzanie identyfikatorami sesji
+Summary(pl.UTF-8):   Digest::UserSID - zarzÄ…dzanie identyfikatorami sesji
 Name:		perl-Digest-UserSID
 Version:	1.05
 Release:	3
@@ -21,8 +21,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Digest::UserSID - Managing of Session IDs for Users on CGI- and
 console-scripts.
 
-%description -l pl
-Modu³ UserSID - zarz±dzaj±cy identyfikatorami sesji dla u¿ytkowników w
+%description -l pl.UTF-8
+ModuÅ‚ UserSID - zarzÄ…dzajÄ…cy identyfikatorami sesji dla uÅ¼ytkownikÃ³w w
 skryptach CGI i konsolowych.
 
 %prep

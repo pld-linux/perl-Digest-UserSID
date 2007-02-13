@@ -2,7 +2,7 @@
 %define		pdir	Digest
 %define		pnam	UserSID
 Summary:	Digest::UserSID - managing of session IDs
-Summary(pl.UTF-8):   Digest::UserSID - zarządzanie identyfikatorami sesji
+Summary(pl.UTF-8):	Digest::UserSID - zarządzanie identyfikatorami sesji
 Name:		perl-Digest-UserSID
 Version:	1.05
 Release:	3

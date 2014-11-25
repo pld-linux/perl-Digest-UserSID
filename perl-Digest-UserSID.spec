@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Digest
 %define		pnam	UserSID
+%include	/usr/lib/rpm/macros.perl
 Summary:	Digest::UserSID - managing of session IDs
 Summary(pl.UTF-8):	Digest::UserSID - zarządzanie identyfikatorami sesji
 Name:		perl-Digest-UserSID
@@ -11,8 +11,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1d06119b1e0367823fb197a82b472fd4
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Digest-UserSID/
 BuildRequires:	perl-Digest-SHA1
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

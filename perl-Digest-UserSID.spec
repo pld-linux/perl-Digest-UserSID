@@ -1,6 +1,5 @@
 %define		pdir	Digest
 %define		pnam	UserSID
-%include	/usr/lib/rpm/macros.perl
 Summary:	Digest::UserSID - managing of session IDs
 Summary(pl.UTF-8):	Digest::UserSID - zarządzanie identyfikatorami sesji
 Name:		perl-Digest-UserSID

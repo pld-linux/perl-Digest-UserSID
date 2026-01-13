@@ -4,7 +4,7 @@ Summary:	Digest::UserSID - managing of session IDs
 Summary(pl.UTF-8):	Digest::UserSID - zarządzanie identyfikatorami sesji
 Name:		perl-Digest-UserSID
 Version:	1.05
-Release:	4
+Release:	5
 # same as perl, but "free" in module header
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
